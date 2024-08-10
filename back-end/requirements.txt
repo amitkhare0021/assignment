@@ -1,0 +1,7 @@
+Flask
+Flask-MySQLdb
+Flask-Migrate
+Flask-SQLAlchemy
+SQLAlchemy
+spacy
+flask-cors
