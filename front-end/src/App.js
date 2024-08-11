@@ -4,7 +4,7 @@ import FileUpload from './FileUpload'
 function App() {
   return (
     <div className="App">
-      <h1>File upload and summarize</h1>
+      <h1 className="app-title">File Upload & Summarize using LLM</h1>
       <FileUpload />
     </div>
   );

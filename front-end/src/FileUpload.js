@@ -36,26 +36,25 @@ function FileUpload() {
     };
 
     return (
-        <div>
-            <h2>Upload Document</h2>
-            <input type="file" onChange={handleFileChange} />
-            <button onClick={handleUpload}>Upload</button>
+        <div className="upload-document">
+        <h2 className="title">Upload Document</h2>
+        <input type="file" className="file-input" onChange={handleFileChange} />
+        <button className="upload-button" onClick={handleUpload}>Upload</button>
 
-            {docId && (
-                <>
-                    <h3>Document ID: {docId}</h3>
-                    <button onClick={handleSummarize}>Summarize</button>
-                </>
-            )}
+        {docId && (
+            <>
+                <h3 className="doc-id">Document ID: {docId}</h3>
+                <button className="summarize-button" onClick={handleSummarize}>Summarize</button>
+            </>
+        )}
 
-            {
-                summary && (
-                    <div>
-                        <h3>summary</h3>
-                        <p>{summary}</p>
-                    </div>
-                )}
-        </div>
+        {summary && (
+            <div className="summary-container">
+                <h3 className="summary-title">Summary</h3>
+                <p className="summary-text">{summary}</p>
+            </div>
+        )}
+    </div>
     );
 
 }

@@ -1,0 +1,19 @@
+For Running Back-end Application:
+----------------------------------
+1. pip install -r requirements.txt
+2. python app.py
+
+
+For Running Front-end Application:
+-----------------------------------
+1. npm start
+
+
+Challenges faced during the development of applications:
+--------------------------------------------------------
+- I learned python & react in 1 day to complete this assignment
+
+References Used:
+-----------------
+1. Chat GPT
+2. Stack overflow
