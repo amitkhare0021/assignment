@@ -28,7 +28,7 @@ Make sure you have MySQL installed and running. Update the database.
 #API Endpoints:
 -------------
 
-1. Upload a File:
+1. **Upload a File:**
 
 Endpoint: /upload
 Method: POST
@@ -40,7 +40,8 @@ Response:
 400 Bad Request: If the file is not provided or the file type is not allowed.
 
 
-2. Summarize a Document:
+2. **Summarize a Document:**
+
 Endpoint: /summarize
 Method: POST
 Description: Summarizes the content of the uploaded document.
