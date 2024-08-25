@@ -31,6 +31,7 @@ Make sure you have MySQL installed and running. Update the database.
 1. **Upload a File:**
 
 Endpoint: /upload
+
 Method: POST
 Description: Uploads a file to the server.
 Request:
@@ -43,6 +44,7 @@ Response:
 2. **Summarize a Document:**
 
 Endpoint: /summarize
+
 Method: POST
 Description: Summarizes the content of the uploaded document.
 Request:
