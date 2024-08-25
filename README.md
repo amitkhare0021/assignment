@@ -3,6 +3,7 @@
 #Features:
 ---------
 1.File Upload: Upload text, PDF, or DOCX files to the server.
+
 2.Text Summarization: Summarize the content of uploaded documents.
 
 #Technologies Used:
